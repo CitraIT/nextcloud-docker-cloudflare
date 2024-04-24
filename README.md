@@ -16,3 +16,9 @@ sudo docker run \
 --volume /var/run/docker.sock:/var/run/docker.sock:ro \
 nextcloud/all-in-one:latest
 ```
+
+
+
+References:  
+https://github.com/nextcloud/all-in-one#how-to-skip-the-domain-validation  
+https://github.com/nextcloud/all-in-one/blob/main/reverse-proxy.md
